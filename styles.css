@@ -1,0 +1,114 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body {
+    background-image: url('https://i.pinimg.com/originals/e0/56/89/e056897615f845ee379a5133a1c1b3ef.gif');
+    /* background-size: cover; */
+    /* overflow: hidden; */
+    color: white;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /*1680x860 */
+    /* width: 1680px; */
+}
+.aboba {
+    background-color: rgba(120, 120, 120, 0.237);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.asd {
+    border: 1px solid red;
+    height: 50px;
+    width: 200px;
+    border-radius: 15%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap');
+
+.btn{
+    background-color: rgba(0, 102, 204, 0.392);
+    /* border: 2px solid #0066cc; */
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+    border-radius: 50px;
+    height: 50px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 800;
+    color: rgba(255, 255, 255, 0.392);
+    transition: all .5s ease-in-out;
+}
+
+.btn:hover {
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 102, 204);
+}
+
+.desription {
+    width: fit-content;
+    height: fit-content;
+    background-color: rgba(135, 135, 135, 0.187);
+    border-radius: 15px;
+    font-size: 50px;
+    margin-bottom: 200px;
+    opacity: 0;
+    transition: all 1s ease-in-out;
+}
+
+.shown {
+    opacity: 1;
+}
+
+
